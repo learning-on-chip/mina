@@ -1,0 +1,15 @@
+[package]
+name = "mina"
+version = "0.0.1"
+authors = ["Ivan Ukhov <ivan.ukhov@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/learning-on-chip/mina"
+homepage = "https://github.com/learning-on-chip/mina"
+description = "Mina is a tool for generating traffic data."
+edition = "2018"
+
+[dependencies]
+arguments = "*"
+fractal = "*"
+probability = "*"
+random = "*"
