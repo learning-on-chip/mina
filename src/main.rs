@@ -12,7 +12,7 @@ Options:
 use fractal::Beta;
 use std::collections::VecDeque;
 use std::fs::File;
-use std::io::{BufReader, BufRead, Write};
+use std::io::{BufRead, BufReader, Write};
 
 pub struct Fractal {
     time: f64,
@@ -93,7 +93,11 @@ fn main() {
     let mut model = Fractal::new(&data, source);
     let output = arguments.get::<String>("output").unwrap();
     let mut output = File::create(output).unwrap();
-    for _ in 0..arguments.get::<i64>("length").map(|length| length as u64).unwrap() {
+    for _ in 0..arguments
+        .get::<i64>("length")
+        .map(|length| length as u64)
+        .unwrap()
+    {
         writeln!(output, "{}", model.next().unwrap()).unwrap();
     }
 }
