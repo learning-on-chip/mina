@@ -82,8 +82,13 @@ fn main() {
     let input = File::open(input).unwrap();
     let input = BufReader::new(input);
     let mut data = vec![];
+    let mut last = None;
     for line in input.lines() {
-        data.push(line.unwrap().parse::<f64>().unwrap());
+        let value = line.unwrap().parse::<f64>().unwrap();
+        if last.is_some() {
+            data.push(value - last.unwrap());
+        }
+        last = Some(value);
     }
     let mut model = Fractal::new(&data, source);
     let output = arguments.get::<String>("output").unwrap();
