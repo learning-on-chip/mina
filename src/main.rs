@@ -89,6 +89,6 @@ fn main() {
     let output = arguments.get::<String>("output").unwrap();
     let mut output = File::create(output).unwrap();
     for _ in 0..arguments.get::<i64>("length").map(|length| length as u64).unwrap() {
-        write!(output, "{}", model.next().unwrap()).unwrap();
+        writeln!(output, "{}", model.next().unwrap()).unwrap();
     }
 }
