@@ -23,11 +23,11 @@ dependencies = [
 
 [[package]]
 name = "fractal"
-version = "0.6.3"
+version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "dwt 0.5.2 (registry+https://github.com/rust-lang/crates.io-index)",
- "probability 0.15.12 (registry+https://github.com/rust-lang/crates.io-index)",
+ "probability 0.17.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "statistics 0.4.1 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
@@ -41,7 +41,7 @@ name = "mina"
 version = "0.0.1"
 dependencies = [
  "arguments 0.6.2 (registry+https://github.com/rust-lang/crates.io-index)",
- "fractal 0.6.3 (registry+https://github.com/rust-lang/crates.io-index)",
+ "fractal 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "probability 0.17.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "random 0.12.2 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
@@ -66,15 +66,6 @@ dependencies = [
 name = "options"
 version = "0.5.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-
-[[package]]
-name = "probability"
-version = "0.15.12"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-dependencies = [
- "random 0.12.2 (registry+https://github.com/rust-lang/crates.io-index)",
- "special 0.8.1 (registry+https://github.com/rust-lang/crates.io-index)",
-]
 
 [[package]]
 name = "probability"
@@ -107,12 +98,11 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 "checksum arguments 0.6.2 (registry+https://github.com/rust-lang/crates.io-index)" = "ef446ba94fd640b51609759f5280d5d2927386b58a1a4946594b4145f5d4a4c8"
 "checksum autocfg 0.1.6 (registry+https://github.com/rust-lang/crates.io-index)" = "b671c8fb71b457dd4ae18c4ba1e59aa81793daacc361d82fcd410cef0d491875"
 "checksum dwt 0.5.2 (registry+https://github.com/rust-lang/crates.io-index)" = "537fc1f78e72b8d14a7fd0d918996a3a33220149b89ef88864256af2f5b25c3f"
-"checksum fractal 0.6.3 (registry+https://github.com/rust-lang/crates.io-index)" = "c104ba7731e146d3a6455a897e2ddc5259dc0e74c1f4aecb4de5a4c5965484a4"
+"checksum fractal 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)" = "e63a1ea4eeeab64c3d6b0ca87052c482ae4164cf7c74aa64e856465e9c6c34b1"
 "checksum libc 0.2.62 (registry+https://github.com/rust-lang/crates.io-index)" = "34fcd2c08d2f832f376f4173a231990fa5aef4e99fb569867318a227ef4c06ba"
 "checksum num-traits 0.1.43 (registry+https://github.com/rust-lang/crates.io-index)" = "92e5113e9fd4cc14ded8e499429f396a20f98c772a47cc8622a736e1ec843c31"
 "checksum num-traits 0.2.8 (registry+https://github.com/rust-lang/crates.io-index)" = "6ba9a427cfca2be13aa6f6403b0b7e7368fe982bfa16fccc450ce74c46cd9b32"
 "checksum options 0.5.1 (registry+https://github.com/rust-lang/crates.io-index)" = "7cae662c78308e9d468ee0548cd8852e66a9b4a945c16ddcc6eed3dd9ef14cb0"
-"checksum probability 0.15.12 (registry+https://github.com/rust-lang/crates.io-index)" = "ec2a43b46675065a24d11f19f8e088abaf07eb38e5eda0115a217758aabf82dd"
 "checksum probability 0.17.0 (registry+https://github.com/rust-lang/crates.io-index)" = "01935a29f0dd293b7d0254144168084cc8ada317b107635c777fb7d0fb5120e5"
 "checksum random 0.12.2 (registry+https://github.com/rust-lang/crates.io-index)" = "97d13a3485349981c90c79112a11222c3e6e75de1d52b87a7525b3bf5361420f"
 "checksum special 0.8.1 (registry+https://github.com/rust-lang/crates.io-index)" = "24a65e074159b75dcf173a4733ab2188baac24967b5c8ec9ed87ae15fcbc7636"
