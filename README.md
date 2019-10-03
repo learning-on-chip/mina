@@ -1,6 +1,6 @@
 # Mina
 
-Mina is a tool for generating arrival data.
+Mina is a tool for generating traffic data.
 
 ## Installation
 
