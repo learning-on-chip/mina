@@ -23,7 +23,7 @@ dependencies = [
 
 [[package]]
 name = "fractal"
-version = "0.7.0"
+version = "0.7.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "dwt 0.5.2 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -41,7 +41,7 @@ name = "mina"
 version = "0.0.1"
 dependencies = [
  "arguments 0.6.2 (registry+https://github.com/rust-lang/crates.io-index)",
- "fractal 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "fractal 0.7.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "probability 0.17.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "random 0.12.2 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
@@ -98,7 +98,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 "checksum arguments 0.6.2 (registry+https://github.com/rust-lang/crates.io-index)" = "ef446ba94fd640b51609759f5280d5d2927386b58a1a4946594b4145f5d4a4c8"
 "checksum autocfg 0.1.6 (registry+https://github.com/rust-lang/crates.io-index)" = "b671c8fb71b457dd4ae18c4ba1e59aa81793daacc361d82fcd410cef0d491875"
 "checksum dwt 0.5.2 (registry+https://github.com/rust-lang/crates.io-index)" = "537fc1f78e72b8d14a7fd0d918996a3a33220149b89ef88864256af2f5b25c3f"
-"checksum fractal 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)" = "e63a1ea4eeeab64c3d6b0ca87052c482ae4164cf7c74aa64e856465e9c6c34b1"
+"checksum fractal 0.7.1 (registry+https://github.com/rust-lang/crates.io-index)" = "3da113d6ea1b18a945975e565c2e6a8d9eaeebd3e9ebec112205da64b52510eb"
 "checksum libc 0.2.62 (registry+https://github.com/rust-lang/crates.io-index)" = "34fcd2c08d2f832f376f4173a231990fa5aef4e99fb569867318a227ef4c06ba"
 "checksum num-traits 0.1.43 (registry+https://github.com/rust-lang/crates.io-index)" = "92e5113e9fd4cc14ded8e499429f396a20f98c772a47cc8622a736e1ec843c31"
 "checksum num-traits 0.2.8 (registry+https://github.com/rust-lang/crates.io-index)" = "6ba9a427cfca2be13aa6f6403b0b7e7368fe982bfa16fccc450ce74c46cd9b32"
